@@ -12,5 +12,4 @@ Données uniquement publiques (déjà visibles sur le site). Mise en place par A
 
 `feed_bing_meta.py feed.tsv stock-history.csv allowlist.json feed-bing-meta.tsv` construit le flux Bing / Meta (même format Google) à partir du flux Merchant et de la liste validée `allowlist.json` (3 404 identifiants), disponibilité selon le dernier relevé de stock. Ce fichier n’est déclaré ni dans Bing Merchant Center ni dans Meta Commerce Manager tant qu’Yves ne l’a pas décidé.
 
-Dépôt passé en privé le 09/10/2026 à la demande d’Yves : l’adresse raw.githubusercontent.com du flux ne répond plus sans jeton ; Google Merchant Center doit être pointé vers une autre adresse publique.
-
+Copie publique des flux (10/10/2026) : à chaque relevé, `feed.tsv` et `feed-bing-meta.tsv` sont recopiés dans le dépôt public `yvesvandamme1975-sketch/mesbonbons-flux` (fichiers seuls). Adresses à déclarer : `https://raw.githubusercontent.com/yvesvandamme1975-sketch/mesbonbons-flux/main/feed.tsv` (Google Merchant Center) et `…/mesbonbons-flux/main/feed-bing-meta.tsv` (Bing, Meta). Ce dépôt-ci reste public tant que Google Merchant Center lit l'ancienne adresse ; il passera en privé une fois la nouvelle adresse déclarée.
