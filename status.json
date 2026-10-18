@@ -1,10 +1,10 @@
 {
- "releve": "2026-10-17 06:53",
+ "releve": "2026-10-18 12:53",
  "produits": 3358,
- "dans_flux": 3061,
- "en_stock": 2102,
+ "dans_flux": 3066,
+ "en_stock": 2093,
  "exclus": {
   "prix absent": 238,
-  "description vide": 59
+  "description vide": 54
  }
 }
